@@ -1,4 +1,4 @@
-@media screen and (max-width: 1079px) {
+@media screen and (max-width: 759px) {
 
 /******************************************
 Photos
@@ -8,6 +8,17 @@ Photos
  #photos li {
     width: 97%;
   }
+
+/******************************************
+About
+******************************************/
+
+.profile-photo {
+  display: block;
+  width: 100%;
+  margin: 0 0 20px 0;
+  border-radius: 100%;
+}
 
 /******************************************
 Font resize
@@ -39,7 +50,7 @@ Font resize
 
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 760px) {
 
 /******************************************
 Header
@@ -83,6 +94,14 @@ Two Column Layout
     float: right;
   }
 
+  .profile-photo {
+    display: block;
+    float: left;
+    max-width: 200px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+  }
+
 /******************************************
 Photos
 ******************************************/
@@ -117,11 +136,6 @@ Photos
 /******************************************
 About
 ******************************************/
-
-  .profile-photo {
-  float: left;
-  margin: 0 5% 80px 0;
-}
 
 @media screen and (min-width: 1366px) {
 

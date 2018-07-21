@@ -142,13 +142,6 @@ Photo Gallery
 About Page
 ******************************************/
 
-.profile-photo {
-  display: block;
-  max-width: 200px;
-  margin: 0 auto 30px;
-  border-radius: 100%;
-}
-
 /******************************************
 Contact Page
 ******************************************/

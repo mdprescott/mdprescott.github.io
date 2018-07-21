@@ -98,7 +98,7 @@ Two Column Layout
     display: block;
     float: left;
     max-width: 200px;
-    margin: 0 auto 30px;
+    margin: 0 30px 30px;
     border-radius: 100%;
   }
 

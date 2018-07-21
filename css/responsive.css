@@ -1,0 +1,148 @@
+@media screen and (max-width: 1079px) {
+
+/******************************************
+Photos
+******************************************/
+
+
+ #photos li {
+    width: 97%;
+  }
+
+/******************************************
+Font resize
+******************************************/
+
+
+ h1 {
+  width: 100%;
+  font-size: 2em;
+  }
+
+ h2 {
+  width: 100%;
+  font-size: .75em;
+  }
+
+ nav {
+  font-size: 1em;
+  width: 100%;
+  }
+
+ header {
+  width: 100%;
+  }
+
+ body {
+    font-size: 1.5em;
+  }
+
+}
+
+@media screen and (min-width: 1080px) {
+
+/******************************************
+Header
+******************************************/
+
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.55em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+
+  #title {
+    float: left;
+    margin: .5% 0 0 5%;
+    text-align: left;
+    width: 45%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  header {
+    border-bottom: 5px solid #599a68;
+    margin-bottom: 80px;
+  }
+
+/******************************************
+Two Column Layout
+******************************************/
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+
+/******************************************
+Photos
+******************************************/
+
+
+  #photos li {
+    display: inline;
+    text-align: center;
+    width: 30.333333%;
+    margin: 0 0 30px 0;
+    position: relative;
+  }
+
+  #photos li a img {
+    display: block;
+    margin: auto;
+  }
+
+  #photos li a img.vertical {
+    max-height: 300px;
+  }
+
+  #photos li a p {
+
+  }
+
+  #photos li:nth-child(3n + 1) {
+    clear: left;
+  }
+}
+
+/******************************************
+About
+******************************************/
+
+  .profile-photo {
+  float: left;
+  margin: 0 5% 80px 0;
+}
+
+@media screen and (min-width: 1366px) {
+
+  /******************************************
+  Adjust Vert Image Size
+  ******************************************/
+
+  #photos li a img.vertical {
+    max-height: 400px;
+  }
+
+}
+
+@media screen and (min-width: 1920px) {
+
+  /******************************************
+  Adjust Vert Image Size
+  ******************************************/
+
+  #photos li a img.vertical {
+    max-height: 500px;
+  }
+
+}

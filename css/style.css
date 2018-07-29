@@ -46,13 +46,14 @@ body, html {
 }
 
 #wrap {
-    min-height: 90%;
+    min-height: 85%;
     height: auto !important;
     margin: 0 auto 0 auto;
 }
 
 #footer {
     max-height: 10%;
+    height: auto !important;
     margin: 0 auto 0 auto
 }
 

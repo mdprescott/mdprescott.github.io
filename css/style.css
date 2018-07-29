@@ -1,217 +1,88 @@
-/******************************************
-General
-******************************************/
-
-/* fixed background and padding */
-#wrapper {
-  margin: auto;
-  padding: 0 5%;
+body, html {
+    height: 100%;
 }
 
-body {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: normal;
-  height: 95%;
+.bg-img {
+    background: url(../img/citylights2.JPG);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-img {
-  max-width: 100%;
+.bg-hd {
+    background: url(../img/citylights2.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h3 {
-  margin: 0 0 1em 0;
-  text-align: center;
+.ft-m {
+  font-family: 'Montserrat', sans-serif;
 }
 
-footer {
-  height: 5%;
+.nav {
+    display:table;
+    width: 65%;
+    margin: auto;
+}
+ .nav a {
+    float:none;
+    display:table-cell;
+    text-align:center;
 }
 
-/******************************************
-Header
-******************************************/
-
-header {
-  float: left;
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
-  width: 100%;
-  height: 15%;
+.bg-blue {
+  background-color: #eff9ff;
 }
 
-/* centered title */
-#title {
-  text-align: center;
-  margin: 0;
-}
-
-h1 {
-  font-family: 'Fjalla One', sans-serif;
-  margin: 0 0 20px 0;
-  font-size: 5em;
-  font-weight: normal;
-  line-height: 1.2em;
-}
-
-h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: .8em;
-  font-weight: bold;
-  line-height: 0em;
-  margin: -5px 0 15px;
-}
-
-/******************************************
-Navigation
-******************************************/
-
-nav {
-  text-align: center;
-  font-size: 1.5em;
-  margin: 25px 0 0 0;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0 20px 20px 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav a {
-  font-weight: 700;
-  padding: 15px 10px;
-}
-
-/******************************************
-Body
-******************************************/
-
-/******************************************
-Footer
-******************************************/
-
-footer {
-  font-size: .75em;
-  text-align: center;
-  clear: both;
-  padding-top: 100px;
-  margin: -5px;
-  color: #ccc;
-}
-
-#fblogo {
-  float: none;
-  width: 20px;
-  height: 20px;
-  margin: 0 0 -20px;
-  padding: 1%;
-}
-
-/******************************************
-Photo Gallery
-******************************************/
-
-#photos {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-#photos li {
-  float: left;
-  width: 45%;
-  margin: 0;
-  padding: 1.5%;
-  color: #bdc3c7;
-}
-
-#photos li a p {
-  margin: 0;
-  padding: 5%;
-  font-weight: normal;
-  font-size: .95em;
-  text-align: center;
-  color: #bdc3c7
-}
-
-/******************************************
-About Page
-******************************************/
-
-/******************************************
-Contact Page
-******************************************/
-
-.contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: .8em;
-}
-
-.contact-info a {
+.contact {
   display: block;
   min-height: 20px;
   background-repeat: no-repeat;
   background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
+  /* padding: 0 0 0 30px;
+  margin: 0 0 10px; */
 }
 
-.contact-info li.phone a {
-  background-image: url('../img/phoneicon.png');
+#wrap {
+    min-height: 90%;
+    height: auto !important;
+    margin: 0 auto 0 auto;
 }
 
-.contact-info li.e-mail a {
-  background-image: url('../img/mailicon.png');
+#footer {
+    max-height: 10%;
+    margin: 0 auto 0 auto
 }
 
-.contact-info li.twitter a {
-  background-image: url('../img/twittericon.png');
+.img {
+  max-height: 300px
 }
 
-/******************************************
-Colors
-******************************************/
 
-/* green colored links - no underline */
-a {
-  text-decoration: none;
-  color: #6ab47b;
+/* Responsive Header Adjustments */
+
+@media (max-width: 837px) {
+
+  .mh {
+    font-size: 4em;
+  }
+
 }
 
-/* green header background color*/
-header {
-  background: #6ab47b;
-  border-color: #599a68;
+@media (max-width: 767px) {
+
+  .mh {
+    font-size: 3em;
+  }
+
 }
 
-/* white header text color*/
-h1, h2 {
- color: #fff;
-}
+@media (max-width: 575px) {
 
-/* slightly darker green nav link background */
-nav {
-  background: #599a68;
-}
+  .mh {
+    font-size: 2em;
+  }
 
-/* white nav links, same color when visited */
-nav a, nav a:visited {
-  color: #fff;
-}
-
-/* slightly darker green selected links and hover links */
-nav a.selected, nav a:hover {
-  color: #32673f;
-}
-
-/* tan site body, grey text */
-body {
-  background-color: #eed;
-  color: #888;
 }
